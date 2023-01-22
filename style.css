@@ -1,0 +1,420 @@
+/* Common Css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+.area{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* Header Css */
+.header{
+    overflow: hidden;
+    background-color: #ddd;
+    padding: 20px 0;
+}
+.logo{
+    float: left;
+    width: 270px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    float:right;
+    width: 700px;
+}
+.menu ul{
+    list-style: none;
+    text-align: right;
+    margin-top: 22px;
+}
+.menu ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    text-transform: capitalize;
+}
+.menu ul li a:hover{
+    background-color:#ff6347;
+    color:#fff;
+}
+/* Bannar Css */
+.bannar img{
+    width: 100%;
+    height: 350px;
+}
+.title h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    margin: 20px 0;
+}
+/* Services Css */
+.services-box{
+    overflow: hidden;
+}
+.single-service{
+    background-color: #008080;
+    padding: 20px;
+    float: left;
+    width: 280px;
+    margin-right: 20px;
+}
+.single-service img{
+    width: 100%;
+}
+.single-service h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.single-service p{
+    color: #fff;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.single-service a{
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    color:#fff;
+    background-color: #ff6347;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+}
+.single-service:last-child{
+    margin-right: 0px;
+}
+/* About Css */
+.about{
+    overflow: hidden;
+    padding: 30px 0;
+}
+.about-left{
+    float:left;
+    width: 650px;
+    margin-right: 30px;
+}
+.about-left h4{
+    text-transform: capitalize;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.about-menu h4{
+    text-transform: capitalize;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.about-left a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    background-color:#ff6347;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+}
+.about-left p{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.about-menu{
+    display:inline-block;
+    width:320px;
+}
+.about-menu ul{
+    list-style: none;
+}
+.about-menu ul li{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-image: url(../arrow.jpg);
+    background-size: 6%;
+    background-repeat: no-repeat;
+    display: block;
+}
+.about-menu ul li a{
+    color:#333;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 17px;
+    padding-left: 25px;
+}
+.about-menu ul li a:hover{
+    color: #ff0000;
+}
+.about-menu ul li:last-child{
+    border-bottom: 0;
+}
+/* Footar Css */
+.footar{
+    text-align: center;
+    background-color: #008080;
+    padding: 20px 0;
+}
+.footar p{
+    font-weight: bold;
+    color:#fff;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+/* Page Bannar Css */
+.page-bannar {
+	background-image: url("../page-bannar.jpg");
+	padding: 100px 0;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.page-bannar h4 {
+	color:#ffff00;
+	font-size: 45px;
+	text-transform: capitalize;
+}
+/* Extra Common Css */
+.service-page .single-service:nth-child(4), .service-page .single-service:nth-child(8){
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+.service-page .single-service{
+    width: 195px;
+}
+/* Gallary Css */
+.gallary{
+    overflow: hidden;
+}
+.single-gallary{
+    float:left;
+    width: 235px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.single-gallary:nth-child(4), .single-gallary:nth-child(8){
+    margin-right: 0;
+}
+.single-gallary iframe{
+    width: 100%;
+}
+/* Contact Css */
+.contact {
+	overflow: hidden;
+	padding: 30px 0;
+}
+.contact-form {
+	float: left;
+	width: 630px;
+	margin-right: 30px;
+}
+.contact-form h4, .contact-address h4 {
+	text-transform: capitalize;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+.contact-form input, .contact-form textarea{
+    width: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #ddd;
+}
+.contact-form input[type="submit"] {
+	width: auto;
+	padding: 10px 25px;
+	background-color: tomato;
+	border: 0;
+	font-weight: bold;
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+.contact-address {
+	float: right;
+	width: 320px;
+}
+.contact-address ul {
+	list-style: none;
+}
+.contact-address ul li {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ddd;
+	font-size: 20px;
+}
+.contact-address ul li:last-child{
+    border-bottom: 0;
+}
+.contact-address ul li a {
+	color: #333;
+	text-decoration: none;
+}
+.contact-address ul li:hover, .contact-address ul li a:hover{
+    color:teal;
+}
+/* Map Css */
+.map{
+   margin-bottom: 20px; 
+}
+.map iframe{
+    width: 100%;
+    border: 2px solid #eee;
+    height: 300px;
+}
+/* Medium Layout */
+@media only screen and (min-width:990px) and (max-width: 1200px) {
+    .area{
+        width: 970px;
+    }
+    .logo {
+        width: 240px;
+    }
+    .single-service {
+        background-color: #333;
+        width: 270px;
+    }
+    .single-service p {
+        font-size: 16px;
+    }
+    .about-left {
+        width: 620px;
+    }
+    .service-page .single-service {
+        width: 187px;
+    }
+    .single-gallary {
+        width: 226px;
+    }
+    .contact-form {
+        width: 615px;
+    }
+}
+/* Tablet Layout */
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    .area{
+        width: 750px;
+    }
+    .logo {
+        width: 225px;
+    }
+    .menu {
+        width: 485px;
+    }
+    .menu ul li a {
+        padding: 5px;
+    }
+    .single-service {
+        background-color:#5d8ad3;
+        width: 196px;
+    }
+    .about-menu {
+        width: 100%;
+    }
+    .about-menu ul li {
+        background-size: 3%;
+    }
+    .about-menu h4 {
+        margin-top: 20px;
+    }
+    .service-page .single-service {
+        width: 196px;
+        margin-bottom: 20px;
+    }
+    .service-page .single-service:nth-child(3), .service-page .single-service:nth-child(6), .service-page .single-service:nth-child(8){
+        margin-right: 0;
+    }
+    .service-page .single-service:nth-child(4){
+        margin-right: 20px;
+    }
+    .single-gallary {
+        width: 172px;
+        margin-bottom: 10px;
+    }
+    .contact-form, .contact-address{
+        width: 100%;
+    }
+    .contact-form h4, .contact-address h4 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+/* Mobail Layout: 320px */
+@media only screen and (max-width:767px){
+    .area{
+        width: 300px;
+    }
+    .menu, .about-left, .about-menu, .contact-form, .contact-address {
+        width: 100%;
+    }
+    .about-left, .contact-form {
+        margin-bottom: 20px;
+    }
+    .menu ul {
+        text-align: center;
+    }
+    .menu ul li a {
+        padding: 5px;
+    }
+    .title h4 {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    .single-service {
+        width: 260px;
+        margin-bottom: 20px;
+        background-color: #531306;
+    }
+    .footar {
+        background-color: #010b0b;
+        padding: 10px 0;
+    }
+    .page-bannar {
+        padding: 40px 0;
+    }
+    .page-bannar h4 {
+        font-size: 35px;
+    }
+    .service-page .single-service {
+        width: 260px;
+        background-color: #9b9b8e;
+    }
+    .single-gallary {
+        width: 100%;
+    }
+}
+
+/* Wide Mobail Layout: 480px */
+@media only screen and (min-width:480px) and (max-width: 767px){
+    .area{
+        width: 450px;
+    }
+    .single-service, .service-page .single-service {
+        width: 409px;
+        background-color: #f83007;
+    }
+}
